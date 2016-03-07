@@ -21,6 +21,9 @@ var handleClick = function(event){
 	} else if(choice == "division"){
 		operation = " / ";
 		answer = parsedNumber1 / parsedNumber2;
+	}else if(choice == "Math.sqrt"){
+		operation = " &radic; "
+		answer = Math.sqrt(parsedNumber2);
 	}	
 	var answersArea = document.getElementById("answers");
 
